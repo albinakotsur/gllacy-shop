@@ -6,36 +6,36 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="container">
+    <header class="header container">
       <div class="header__logo">
         <img src="img/logo-index.png" width="" height="" alt="Gllacy Shop">
-        <nav class="header__main-navigation">
-          <ul>
-            <li>
-              <a href="#">Каталог</a>
-            </li>
-            <li>
-              <a href="#">Доставка и оплата</a>
-            </li>
-            <li>
-              <a href="#">О компании</a>
-            </li>
-          </ul>
-        </nav>
       </div>
+      <nav class="header__main-navigation">
+        <ul>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            <a href="#">Доставка и оплата</a>
+          </li>
+          <li>
+            <a href="#">О компании</a>
+          </li>
+        </ul>
+      </nav>
       <div class="header__user-block">
-        <button class="btn btn-searching"><a href="#">Поиск</a></button>
+        <a href="#" class="btn btn-searching">Поиск</a>
         <button type="btn btn-login">Вход</button>
         <button class="btn btn-basket">Пусто</button>
       </div>
     </header>
-    <main class="container">
+    <main class="main container">
       <div class="main__contacts">
         С 10 до 20, ежедневно <br>
         <h2>8 812 450-25-25</h2>
       </div>
       <div class="main__banners">
-        <div class="banners-items">
+        <div class="main__banners__items">
         <!--  <div class="banners-item">
             <img class="banner-item-img" src="img/banner-photo-1.png" alt="">
           </div>
@@ -44,13 +44,13 @@
           </div>
           <div class="banners-item">
             <img class="banner-item-img" src="img/banner-photo-3.png" alt="">
-          </div>
-        </div> -->
-        <div class="banners-controls">
+          </div> -->
+        </div>
+        <div class="main__banners__controls">
         <!--  <button class="banners-prev" type="button"></button>
           <button class="banners-next" type="button"></button> -->
           <h2>Крем-брюле и пломбир с малиновым джемом</h2>
-          <div class="banners-switchers">
+          <div class="main__banners__switchers">
             <!--<button class="banner-switcher" type="button"></button>
             <button class="banner-switcher" type="button"></button>
             <button class="banner-switcher" type="button"></button> -->
@@ -60,38 +60,38 @@
       </div>
       <div class="main__menu">
         <div class="menu__promo">
-          <div class="promo-raspberry">
+          <div class="promo__raspberry">
             <img src="" alt="">
             <b>Малинка даром!</b>
             <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья беслпатно.</p>
             <button class="btn button-promo" type="button">Хочу варенье!</button>
           </div>
-          <div class="promo-chocolate">
+          <div class="promo__chocolate">
             <b>Шоколадки даром!</b>
             <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки абсолютно бесплатною</p>
             <button class="btn button-promo" type="button">Хочу шоколадки!</button>
           </div>
         </div>
         <div class="menu__hits">
-          <div class="menu-hit">
+          <div class="menu__hit">
             <img src="img/hit.png" alt="">
             <img src="img/icecream-1.png" alt="">
             <b>310 р/кг</b>
             <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
           </div>
-          <div class="menu-hit">
+          <div class="menu__hit">
             <img src="img/hit.png" alt="">
             <img src="img/icecream-2.png" alt="">
             <b>380 р/кг</b>
             <a href="#">Сливочно-кофейное с кусочками шоколада</a>
           </div>
-          <div class="menu-hit">
+          <div class="menu__hit">
             <img src="img/hit.png" alt="">
             <img src="img/icecream-3.png" alt="">
             <b>355 р/кг</b>
             <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
           </div>
-          <div class="menu-hit">
+          <div class="menu__hit">
             <img src="img/hit.png" alt="">
             <img src="img/icecream-4.png" alt="">
             <b>415 р/кг</b>
@@ -109,43 +109,42 @@
         </ul>
       </div>
       <div class="main__blog">
-        <div class="blog-news">
+        <div class="main__blog__news">
           <b>Новое в нашем блоге</b>
           <a href="#">10 сспособов сервировки фруктовых щербетов к столу</a>
         </div>
-        <div class="blog-subscription">
+        <div class="main__blog__subscription">
         <b>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =) </b>
-        <form class="subscription-form" action="index.html" method="post">
+        <form class="subscription__form" action="index.html" method="post">
           <input type="text" name="" value="" placeholder="Электронная почта">
           <button type="btn" type="submit">Отправить</button>
         </form>
         </div>
       </div>
     </main>
-    <footer>
-      <div class="footer-map">
+    <footer class="footer container">
+      <div class="footer__map">
         <img src="img/footer-map.png" alt="">
-        <div class="footer-map__adress">
+        <div class="footer__map__adress">
           <p>Адрес главного офиса и <br> офлайн магазина: <b>ул. Большая Конюшенная 19.8, Санкт-Петербург</b> </p>
           <p>Для заказов по телефону: <b>8 812 450-25-25</b>(с 10 до 20 ежедневно) </p>
           <button type="btn">Форма обратной связи</button>
         </div>
       </div>
-      <div class="footer-block">
-        <div class="footer-block__social">
+      <div class="footer__social">
           <a class="social-btn social-btn-tw" href="#">Твиттер</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
         </div>
-        <div class="footer-block__information">
+        <div class="footer__information">
           <ul>
             <li><a href="#">Для поставщиков</a></li>
             <li><a href="#">О производстве</a></li>
             <li><a href="#">Наши документы</a></li>
             <li><a href="#">Экологические стандарты</a> </li>
           </ul>
-        </div class="footer-block__copyright">
+        </div class="footer__copyright">
         <p>Сделано в <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>© 2016</p>
       </div>
     </footer>
